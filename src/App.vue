@@ -79,6 +79,12 @@
     <div class="van-hairline--surround" :style="{height:'40px'}">6</div>
 
     <van-cell is-link @click="fade">点击动画</van-cell>
+    <!-- 每个元素的两侧间隔相等 -->
+    <van-row type="flex" justify="space-around">
+      <van-col span="6">span: 6</van-col>
+      <van-col span="6">span: 6</van-col>
+      <van-col span="6">span: 6</van-col>
+    </van-row>
   </div>
 </template>
 
