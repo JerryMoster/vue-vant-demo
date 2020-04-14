@@ -85,6 +85,18 @@
       <van-col span="6">span: 6</van-col>
       <van-col span="6">span: 6</van-col>
     </van-row>
+    <!-- 每个元素的两侧间隔相等 -->
+    <van-row type="flex" justify="space-around">
+      <van-col span="6">span: 6</van-col>
+      <van-col span="6">span: 6</van-col>
+      <van-col span="6">span: 6</van-col>
+    </van-row>
+    <!-- 每个元素的两侧间隔相等 -->
+    <van-row type="flex" justify="space-around">
+      <van-col span="6">span: 6</van-col>
+      <van-col span="6">span: 6</van-col>
+      <van-col span="6">span: 6</van-col>
+    </van-row>
   </div>
 </template>
 
