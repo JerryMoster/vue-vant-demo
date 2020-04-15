@@ -7,6 +7,10 @@ import { Image } from 'vant'
 import { Lazyload } from 'vant'
 import { Col, Row } from 'vant'
 import { Popup } from 'vant'
+import { Calendar } from 'vant'
+import { Checkbox, CheckboxGroup } from 'vant'
+import { Field } from 'vant'
+import { Form } from 'vant'
 
 Vue.use(Button)
 Vue.use(Cell)
@@ -17,6 +21,11 @@ Vue.use(Lazyload)
 Vue.use(Col)
 Vue.use(Row)
 Vue.use(Popup)
+Vue.use(Calendar)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Field)
+Vue.use(Form)
 
 Vue.config.productionTip = false
 
